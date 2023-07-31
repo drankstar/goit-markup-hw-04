@@ -124,7 +124,7 @@ img {
   border-radius: 2px;
 }
 .header-link {
-  color: #2e2f42;
+  color: var(--navyblue)
   position: relative;
   display: block;
   padding: 24px 0;
