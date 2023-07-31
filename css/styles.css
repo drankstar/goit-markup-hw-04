@@ -360,22 +360,11 @@ img {
   display: flex;
 }
 .link-social {
-  background-color: #4d5ae5;
-  fill: #f4f4fd;
-  align-items: center;
-  justify-content: center;
-  display: flex;
-  width: 40px;
-  height: 40px;
-  border: none;
-  border-radius: 50%;
-  transition-property: color, background-color;
-  transition-duration: 250ms, 250ms;
 }
 .social-link-link:hover {
   background-color: #404bbf;
 }
-.social-link {
+.socials-link {
   fill: #f4f4fd;
 }
 .social-link-link:focus {
@@ -396,7 +385,7 @@ img {
   height: 40px;
 }
 .customers {
-  padding-bottom: 120px;
+  padding: 120px 0 120px;
 }
 .customers-titel {
   padding-top: 120px;
@@ -405,7 +394,7 @@ img {
   text-align: center;
   font-family: Roboto;
   font-size: 36px;
-  line-height: 1.1;
+  line-height: 1.11;
   letter-spacing: 0.02em;
 }
 .customers-list {
@@ -414,18 +403,17 @@ img {
   gap: 24px;
   display: flex;
 }
-.customers-link-icon {
-  fill: #8e8f99;
+.customers-link {
+  width: 100%;
+  height: 100%;
+  border: 1px solid #8e8f99;
+  border-radius: 4px;
+  display: flex;
   align-items: center;
   justify-content: center;
-  display: flex;
-  min-width: 168px;
-  height: 88px;
-  border-radius: 4px;
-  border: 1px solid #8e8f99;
-  transition-property: color, background-color;
-  transition-duration: 250ms, 250ms;
+  color: #8e8f99;
 }
+
 .customers-link-icon:hover,
 .customers-link-icon:focus {
   fill: #404bbf;
