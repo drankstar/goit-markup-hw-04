@@ -645,20 +645,18 @@ img {
 .modal-close-btn:hover {
   border: none;
   background-color: var(--ocean);
-  fill: #ffffff;
 }
 .modal-close-btn:focus {
   border: none;
   background-color: var(--ocean);
-  fill: #ffffff;
 }
 .icon-close-but:hover {
   fill: #ffffff;
 }
-.icon-close-but:focus {
+
+.icon-close-btn:focus {
   fill: #ffffff;
 }
-
 .icon-close-btn {
   fill: var(--navyblue);
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
