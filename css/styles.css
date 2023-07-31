@@ -71,6 +71,9 @@ img {
   margin-left: auto;
   gap: 40px;
 }
+.header-item {
+  color: #404bbf;
+}
 
 .header-navigation {
   margin-right: auto;
