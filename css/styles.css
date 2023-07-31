@@ -625,10 +625,10 @@ img {
   border: none;
   background-color: var(--ocean);
 }
-.icon-close-btn:hover {
+.icon-close-but:hover {
   fill: #ffffff;
 }
-.icon-close-btn:focus {
+.icon-close-but:focus {
   fill: #ffffff;
 }
 .btn-icon {
