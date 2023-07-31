@@ -124,7 +124,7 @@ img {
   border-radius: 2px;
 }
 .header-link {
-  color: #404bbf;
+  color: #2e2f42;
   position: relative;
   display: block;
   padding: 24px 0;
@@ -157,7 +157,6 @@ img {
   letter-spacing: 0.02em;
 }
 .address-link {
-  color: #404bbf;
   color: var(--slate);
   font-family: Roboto;
   font-size: 16px;
