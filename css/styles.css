@@ -652,6 +652,7 @@ img {
 .modal-close-btn:focus {
   border: none;
   background-color: var(--ocean);
+  fill: #ffffff;
 }
 .icon-close-btn:hover {
   fill: #ffffff;
@@ -659,9 +660,7 @@ img {
 .icon-close-btn:focus {
   fill: #ffffff;
 }
-.btn-icon {
-  display: flex;
-}
+
 .icon-close-btn {
   fill: var(--navyblue);
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
