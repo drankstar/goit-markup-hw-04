@@ -24,7 +24,7 @@ img {
   display: block;
 }
 :root {
-  --primery-font: "Roboto", sans-serif;
+  --primary-font: "Roboto", sans-serif;
   --iris: #4d5ae5;
   --navyblue: #2e2f42;
   --slate: #434455;
@@ -150,6 +150,7 @@ img {
 }
 
 .address-item {
+  color: #404bbf;
   font-size: 16px;
   font-weight: 400;
   line-height: 1.5;
@@ -643,7 +644,11 @@ img {
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
     border 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.modal-close-btn:hover,
+.modal-close-btn:hover {
+  border: none;
+  background-color: var(--ocean);
+  fill: #ffffff;
+}
 .modal-close-btn:focus {
   border: none;
   background-color: var(--ocean);
