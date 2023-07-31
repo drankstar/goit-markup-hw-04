@@ -76,11 +76,13 @@ img {
 }
 
 .header-navigation {
+  color: #404bbf;
   margin-right: auto;
   align-items: center;
   display: flex;
 }
 .header-container {
+  color: #404bbf;
   display: flex;
   align-items: center;
 }
@@ -370,15 +372,28 @@ img {
   transition-property: color, background-color;
   transition-duration: 250ms, 250ms;
 }
-.link-social:hover,
-.link-social:focus {
+.social-link-link:hover {
+  background-color: #404bbf;
+}
+.social-link {
+  fill: #f4f4fd;
+}
+.social-link-link:focus {
   background-color: #404bbf;
 }
 .social-link-link {
+  width: 100%;
+  height: 100%;
+  background-color: #4d5ae5;
+  border-radius: 50%;
   display: flex;
   align-items: center;
   justify-content: center;
-  fill: #f4f4fd;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.team-social {
+  width: 40px;
+  height: 40px;
 }
 .customers {
   padding-bottom: 120px;
