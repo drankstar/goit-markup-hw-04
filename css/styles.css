@@ -93,7 +93,7 @@ img {
   text-transform: uppercase;
 }
 .header-logo-studio {
-  color: var(--ocean);
+  color: var(--navyblue);
   font-family: "Raleway", sans-serif;
   font-size: 18px;
   font-style: normal;
@@ -124,11 +124,10 @@ img {
   border-radius: 2px;
 }
 .header-link {
-  color: var(--navyblue);
+  color: var(--ocean);
   position: relative;
   display: block;
   padding: 24px 0;
-  color: var(--navyblue);
   font-family: Roboto;
   font-size: 16px;
   font-weight: 500;
