@@ -366,7 +366,10 @@ img {
 .link-social:focus {
   background-color: #404bbf;
 }
-.social-link {
+.social-link-link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   fill: #f4f4fd;
 }
 .customers {
