@@ -663,6 +663,7 @@ img {
   fill: #ffffff;
 }
 .modal-close-btn:focus .icon-close-btn {
+  border: none;
   fill: #ffffff;
 }
 .modal-close-btn:focus {
