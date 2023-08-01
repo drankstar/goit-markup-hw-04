@@ -104,7 +104,7 @@ img {
 }
 
 .header-link {
-  color: var(--navyblue);
+  color: #404bbf;
   position: relative;
   display: block;
   padding: 24px 0;
@@ -121,6 +121,7 @@ img {
 }
 
 .activeLink::after {
+  background-color: #404bbf;
   content: "";
   bottom: -1px;
   left: 0;
