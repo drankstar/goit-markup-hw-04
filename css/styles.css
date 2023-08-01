@@ -667,6 +667,7 @@ img {
   fill: #ffffff;
 }
 .modal-close-btn:focus {
+  border: none;
   background-color: var(--ocean);
 }
 
