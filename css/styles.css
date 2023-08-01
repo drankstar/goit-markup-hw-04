@@ -111,9 +111,10 @@ img {
   width: 100%;
   height: 4px;
   border-radius: 2px;
-  background-color: #404bbf;
+  background-color: ;
 }
 .header-link:hover::after {
+  background-color: ;
   color: #404bbf;
   content: "";
   bottom: -1px;
@@ -124,7 +125,7 @@ img {
   border-radius: 2px;
 }
 .header-link {
-  color: var(--ocean);
+  color: ;
   position: relative;
   display: block;
   padding: 24px 0;
@@ -659,7 +660,7 @@ img {
   border: none;
   background-color: var(--ocean);
 }
-.icon-close-btn:hover {
+.modal-close-btn:hover .icon-close-btn {
   fill: #ffffff;
 }
 .modal-close-btn:focus .icon-close-btn {
